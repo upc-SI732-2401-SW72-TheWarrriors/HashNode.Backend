@@ -1,0 +1,6 @@
+@HashNode.API_HostAddress = http://localhost:5068
+
+GET {{HashNode.API_HostAddress}}/api/v1/conferences
+Accept: application/json
+
+###
