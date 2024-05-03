@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HashNode.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b38507e24744c73726b37098dd11c0cffa8cf62e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HashNode.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HashNode.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
