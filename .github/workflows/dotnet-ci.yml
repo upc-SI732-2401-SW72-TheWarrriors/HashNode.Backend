@@ -20,25 +20,17 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'  # Match your .NET version
+        dotnet-version: '8.0.x'
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
-    - name: Restore Dependencies
-      run: dotnet restore ./HashNode.API/HashNode.API.csproj
+    - name: Restore NuGet Packages
+      run: dotnet restore ./HashNode.Tests/HashNode.Tests.csproj
 
     - name: Build
-      run: dotnet build ./HashNode.API/HashNode.API.csproj --configuration ${{ matrix.configuration }} --no-restore
+      run: dotnet build ./HashNode.Tests/HashNode.Tests.csproj --configuration ${{ matrix.configuration }} --no-restore
 
     - name: Test
       run: dotnet test ./HashNode.Tests/HashNode.Tests.csproj --no-restore --verbosity normal
 
-    - name: Publish
-      run: dotnet publish ./HashNode.API/HashNode.API.csproj --configuration ${{ matrix.configuration }} --no-restore --output ./publish
-
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: published-app
-        path: ./publish
