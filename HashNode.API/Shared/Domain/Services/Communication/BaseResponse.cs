@@ -1,4 +1,5 @@
 ﻿namespace HashNode.API.Shared.Domain.Services.Communication
+
 {
     public class BaseResponse<T>
     {

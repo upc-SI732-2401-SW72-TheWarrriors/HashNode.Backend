@@ -1,4 +1,5 @@
-﻿using HashNode.API.ConferenceManagement.Domain.Models.Entities;
+﻿using HashNode.API.AccessIdentityManagement.Domain.Model.Entities;
+using HashNode.API.ConferenceManagement.Domain.Models.Entities;
 using HashNode.API.ConferenceManagement.Infrastructure.Persistence.Data;
 using HashNode.API.FeedManagement.Domain.Models.Entities;
 using HashNode.API.Shared.Extensions;
