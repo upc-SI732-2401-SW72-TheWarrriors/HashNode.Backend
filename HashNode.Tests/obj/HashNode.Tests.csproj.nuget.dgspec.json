@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repositorios\\visualstudio\\HashNode\\HashNode.Tests\\HashNode.Tests.csproj": {}
+    "C:\\Users\\jean1\\Documents\\Experimentos\\HashNode.Backend\\HashNode.Tests\\HashNode.Tests.csproj": {}
   },
   "projects": {
-    "D:\\repositorios\\visualstudio\\HashNode\\HashNode.Tests\\HashNode.Tests.csproj": {
+    "C:\\Users\\jean1\\Documents\\Experimentos\\HashNode.Backend\\HashNode.Tests\\HashNode.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repositorios\\visualstudio\\HashNode\\HashNode.Tests\\HashNode.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jean1\\Documents\\Experimentos\\HashNode.Backend\\HashNode.Tests\\HashNode.Tests.csproj",
         "projectName": "HashNode.Tests",
-        "projectPath": "D:\\repositorios\\visualstudio\\HashNode\\HashNode.Tests\\HashNode.Tests.csproj",
-        "packagesPath": "C:\\Users\\jackd\\.nuget\\packages\\",
-        "outputPath": "D:\\repositorios\\visualstudio\\HashNode\\HashNode.Tests\\obj\\",
+        "projectPath": "C:\\Users\\jean1\\Documents\\Experimentos\\HashNode.Backend\\HashNode.Tests\\HashNode.Tests.csproj",
+        "packagesPath": "C:\\Users\\jean1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jean1\\Documents\\Experimentos\\HashNode.Backend\\HashNode.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jackd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jean1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,6 +59,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "dotnet-restore-test": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             }
           },
           "imports": [
@@ -83,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
